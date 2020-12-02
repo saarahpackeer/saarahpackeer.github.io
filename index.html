@@ -71,15 +71,21 @@
          display:inline;
          padding:10px;
          }
+         .sec{
+           margin-top:-25px;
+           margin-left:10px;
+         }
+         .t{
+           float: left;
+         }
          /* blinking cursor */
          #cursor {
          background: black;
          -webkit-animation: blink 0.8s infinite;
          width: 4px;
          height: 15px;
-         position:absolute;
-         margin-top:-46px;
-         margin-left:17%;
+         float:left;
+         margin-left:5px;
          }
          @-webkit-keyframes blink {
          0% {background: #fff}
@@ -124,10 +130,11 @@
                <span class="tooltip"><u>astrology app</u>
                <span class="tooltiptext">under progress</span>
                </span>
-               </br>
-               portfolio></br>
+              <div class="sec">
+                <div class="t"> portfolio> </div><div id="cursor"></div>
+              </div>
             </p>
-            <div id="cursor"></div>
+
          </div>
       </div>
       <div class="bg"></div>
