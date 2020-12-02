@@ -1,19 +1,135 @@
-<!doctype html>
-
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-
-  <title>Portfolio</title>
-  <meta name="description" content="portfolio@saarah">
-  <meta name="author" content="saarahpackeer">
-
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
-
-</head>
-
-<body>
-  <p>under progress!</p>
-  <script src="js/scripts.js"></script>
-</body>
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <title>Portfolio</title>
+      <meta name="description" content="portfolio@saarah">
+      <meta name="author" content="saarahpackeer">
+      <link rel="stylesheet" href="css/styles.css?v=1.0">
+      <link href="https://fonts.googleapis.com/css?family=Courier+Prime|Crimson+Text|Ibarra+Real+Nova|Josefin+Sans|Karla|Playfair+Display|Roboto&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <style>
+         body, html {
+         height: 100%;
+         margin: 0;
+         font-family:'Courier Prime';
+         }
+         h1{
+         font-family:'Courier Prime';
+         display:inline;
+         font-size:17px;
+         }
+         a{
+         font-weight:bold;
+         color:white;
+         }
+         /* style the submit button */
+         input[type=submit] {
+         background-color: #4CAF50;
+         color: white;
+         cursor: pointer;
+         }
+         input[type=submit]:hover {
+         background-color: #45a049;
+         }
+         .bg {
+         background-image: url("https://data.whicdn.com/images/315992688/original.gif");
+         height: 100%;
+         background-position: center;
+         background-repeat: no-repeat;
+         background-size: cover;
+         }
+         #container {
+         margin: auto;
+         position:absolute;
+         width: 40%;
+         height:40%;
+         left:0;
+         right:0;
+         top:0;bottom:0;
+         margin-top: auto;
+         margin-bottom: auto;
+         margin-left: auto;
+         margin-right: auto;
+         }
+         #bod{
+         margin-top:15px;
+         padding: 5px;
+         color:white;
+         background-color: black;
+         }
+         #bod p{
+         line-height:1.5;
+         padding:10px;
+         font-size:15px;
+         }
+         .heading{
+         background-color: black;
+         color:white;
+         margin-bottom:20px;
+         display:inline;
+         padding:10px;
+         }
+         /* blinking cursor */
+         #cursor {
+         background: black;
+         -webkit-animation: blink 0.8s infinite;
+         width: 4px;
+         height: 15px;
+         position:absolute;
+         margin-top:-46px;
+         margin-left:17%;
+         }
+         @-webkit-keyframes blink {
+         0% {background: #fff}
+         50% {background: black}
+         100% {background: #fff}
+         }
+         .tooltip .tooltiptext {
+         visibility: hidden;
+         width: 120px;
+         background-color: white;
+         color: black;
+         text-align: center;
+         border-radius: 6px;
+         padding: 5px 0;
+         /* Position the tooltip */
+         position: absolute;
+         z-index: 1;
+         }
+         .tooltip:hover .tooltiptext {
+         visibility: visible;
+         }
+      </style>
+   </head>
+   <body>
+      <div id="container">
+         <div class="heading">
+            <h1>saarah's code portfolio 📁🔐</h1>
+         </div>
+         <div id="bod">
+            <p>portfolio> connect </br>
+               Enter username: guest</br>
+               Enter password: </br>
+               Connected.</br>
+               portfolio></br>
+               portfolio> ls </br>
+               <a href="https://gitfront.io/r/saarahp/c99f325622777be3520704531729b6738cd663fb/WeSurf/" target="_blank">wesurf</a>
+               <span class="tooltip"><u>planner app</u>
+               <span class="tooltiptext">under progress</span>
+               </span>
+               </br>
+               <a href="https://gitfront.io/r/saarahp/129c85b5d5afe5f6cce884fa2d41e0bfb25f36a8/ARTTool/" target="_blank">ARTTool</a>
+               <span class="tooltip"><u>astrology app</u>
+               <span class="tooltiptext">under progress</span>
+               </span>
+               </br>
+               portfolio></br>
+            </p>
+            <div id="cursor"></div>
+         </div>
+      </div>
+      <div class="bg"></div>
+   </body>
 </html>
