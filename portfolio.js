@@ -79,7 +79,7 @@ let p5 = new Project(
 let p6 = new Project(
   "Tourism website prototype",
   "",
-  "under editing",
+  "Under construction",
   "https://cdn.glitch.com/ec05c6ce-7fe4-42b0-839f-11cde141480f%2Ftourism.png?v=1617993682212",
   "HTML, CSS, JS"
 );
