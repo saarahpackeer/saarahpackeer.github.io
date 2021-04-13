@@ -47,7 +47,7 @@ let p1 = new Project(
 let p2 = new Project(
   "Kmart Testing Tool",
   "https://github.com/saarahpackeer/testing_tool",
-  "This is a tool for running automated functional testing on the kmart website based in java selenium and jUnit. It runs multiple tests to verify that the functions of the website are accurate, such as the categories, filters, update to cart etc. The program runs selenium to conduct the automation and uses jUnit to conduct the testing on the functions. If they functions of the website are correctly working, for example, the cart updates with the correct item and details, the test is passed. If it does not meet the specification then it fails.",
+  "This is a tool for running automated functional testing on the kmart website based in java selenium and jUnit. It runs multiple tests to verify that the functions of the website are accurate, such as the categories, filters, update to cart etc. The program runs selenium to conduct the automation and uses jUnit to conduct the testing on the functions. If the functions of the website are correctly working, for example, the cart updates with the correct item and details, the test is passed. If it does not meet the specification then it fails.",
   "https://cdn.glitch.com/ec05c6ce-7fe4-42b0-839f-11cde141480f%2Fkmart.JPG?v=1617740070673",
   "Java + Selenium + jUnit"
 );
@@ -55,7 +55,7 @@ let p2 = new Project(
 let p3 = new Project(
   "ARTTool",
   "https://gitfront.io/r/saarahp/129c85b5d5afe5f6cce884fa2d41e0bfb25f36a8/ARTTool/",
-  "The focus on this project was to compare the popular FSCS-ART non-numeric testing algorithm against traditional random testing for non-numeric inputs. We analysed a paper on the algorithm, transferring the algorithm to our code, and found similar results, which was that using the ART algorithm proves to be significantly more accurate in finding failure regions than random testing due to its more intuitive method of selecting candidates. Our results found that it was able to hit the failure region first more amount of times in comparison to random testing, however it took more time to complete than RT.",
+  "The focus on this project was to compare the popular FSCS-ART non-numeric testing algorithm against traditional random testing for non-numeric inputs. We analysed a paper on the algorithm, transferring the algorithm to our code, and found similar results, which was that using the ART algorithm proves to be significantly more accurate in finding failure regions than random testing due to its more intuitive method of selecting test candidates. Our results found that the ART algorithm  was able to hit the failure region first in comparison to random testing, however it took more time to complete than RT.",
   "https://cdn.glitch.com/ec05c6ce-7fe4-42b0-839f-11cde141480f%2Farttool.png?v=1617740061063",
   "Java + JavaFX"
 );
@@ -63,7 +63,7 @@ let p3 = new Project(
 let p4 = new Project(
   "TravelHelper",
   "https://github.com/saarahpackeer/travelhelperapp",
-  "A simple CRUD android app to calculate the complete fuel price needed to complete a cross state travel. The user can create a trip, inputting their start and ending destinations, along with their fuel consumption. The app then outputs the computed overall cost of the journey to the user, and they can then either discard or save the trip. If they save the trip it is saved to the SQLite databased, and can be accessed and edited from the home directory. If they discard the trip it is not stored in the database and the app returns to the homepage. ",
+  "A simple CRUD android app to calculate the complete fuel price needed to complete a cross state travel. The user can create a trip, inputting their start and ending destinations, along with their fuel consumption. The app then outputs the computed overall cost of the journey to the user, and they can then either discard or save the trip. If they save the trip it is saved to the SQLite database, and can be accessed and edited from the home page. If they discard the trip, it is not stored in the database and the app returns to the homepage. ",
   "https://cdn.glitch.com/ec05c6ce-7fe4-42b0-839f-11cde141480f%2Ftravelhelper2.png?v=1617740069065",
   "Java, SQLite"
 );
