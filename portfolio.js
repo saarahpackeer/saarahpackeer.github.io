@@ -49,7 +49,7 @@ let p2 = new Project(
   "https://github.com/saarahpackeer/testing_tool",
   "This is a tool for running automated functional testing on the kmart website based in java selenium and jUnit. It runs multiple tests to verify that the functions of the website are accurate, such as the categories, filters, update to cart etc. The program runs selenium to conduct the automation and uses jUnit to conduct the testing on the functions. If the functions of the website are correctly working, for example, the cart updates with the correct item and details, the test is passed. If it does not meet the specification then it fails.",
   "https://cdn.glitch.com/ec05c6ce-7fe4-42b0-839f-11cde141480f%2Fkmart.JPG?v=1617740070673",
-  "Java + Selenium + jUnit"
+  "Java + Selenium + jUnit, Automated testing"
 );
 
 let p3 = new Project(
@@ -57,7 +57,7 @@ let p3 = new Project(
   "https://gitfront.io/r/saarahp/129c85b5d5afe5f6cce884fa2d41e0bfb25f36a8/ARTTool/",
   "The focus on this project was to compare the popular FSCS-ART non-numeric testing algorithm against traditional random testing for non-numeric inputs. We analysed a paper on the algorithm, transferring the algorithm to our code, and found similar results, which was that using the ART algorithm proves to be significantly more accurate in finding failure regions than random testing due to its more intuitive method of selecting test candidates. Our results found that the ART algorithm  was able to hit the failure region first in comparison to random testing, however it took more time to complete than RT.",
   "https://cdn.glitch.com/ec05c6ce-7fe4-42b0-839f-11cde141480f%2Farttool.png?v=1617740061063",
-  "Java + JavaFX"
+  "Java + JavaFX, FSCS-ART algorithm, Non-numeric testing"
 );
 
 let p4 = new Project(
