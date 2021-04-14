@@ -37,6 +37,7 @@
   /*font: 400 15px/1 "aileronregular", sans-serif;*/
   /*font: 400 15px/1 "Lato", sans-serif;*/
   font-family: lato, arial, sans-serif;
+  text-align:justify;
   /*
   font-family: 'Karla', 'Avalon', sans-serif;
 */
@@ -214,8 +215,8 @@ a:hover {
   height:60vh;*/
   width: 420px;
   height:500px;
-  margin-left: 10px;
-  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-bottom: 15px;
   float: left;
   /*
   background: #D26;
@@ -240,6 +241,7 @@ a:hover {
   font: 600 10px/1 "Lato", sans-serif;
   font-weight: 600;
   margin-top: -5px;
+  line-height:12px!important;
   color: #a0a4aa;
 }
 
