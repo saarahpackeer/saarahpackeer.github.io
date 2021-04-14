@@ -84,12 +84,30 @@ let p6 = new Project(
   "HTML, CSS, JS"
 );
 
+let p7 = new Project(
+  "Australian Federal 2019 Election Twitter Sentiment Analysis with the Naïve Bayes Classifier",
+  "https://cdn.glitch.com/ec05c6ce-7fe4-42b0-839f-11cde141480f%2FAustralian%20Federal%202019%20Election%20Twitter%20Sentiment%20Analysis%20with%20the%20Na%C3%AFve%20Bayes%20Classifier.pdf?v=1618420603424",
+  "A twitter sentiment analysis on the 2019 Election using the Naive Bayes Classification model. Tweets about the election were extracted and their sentiments were assessed and defined, and the polarity of these tweets were then used to predict the results against real time results. (Img credit: https://uc-r.github.io/public/images/analytics/naive_bayes/naive_bayes_icon.png)",
+  "https://uc-r.github.io/public/images/analytics/naive_bayes/naive_bayes_icon.png",
+  "Naive Bayes Classifier, Knowledge Engineering, Sentiment Analysis, Classification Algorithm, Machine Learning"
+);
+
+let p8 = new Project(
+  "A Literature Review of the Application of Artificial Neural Networks in the Medical Industry.",
+  "https://cdn.glitch.com/ec05c6ce-7fe4-42b0-839f-11cde141480f%2FA%20literature%20review%20of%20the%20application%20of%20Artificial%20Neural%20Networks%20(ANN)%20in%20the%20medical%20industry.pdf?v=1618420503664",
+  "A short literature review on the use of ANNs in the medical industry. The following were the research questions concerning the objective: <br>1.	How are neural networks most prominently applied in this field?<br>2. What are the strengths and limitations of using neural networks in the studies?<br>3.	Are there any patterns found from the synthesis of the studies selected?<br>(Img credit: https://www.researchgate.net/figure/Artificial-neural-network-architecture-ANN-i-h-1-h-2-h-n-o_fig1_321259051)",
+  "https://www.researchgate.net/profile/Facundo-Bre/publication/321259051/figure/fig1/AS:614329250496529@1523478915726/Artificial-neural-network-architecture-ANN-i-h-1-h-2-h-n-o.png",
+  "Artifical Neural Network, Knowledge Engineering, Machine Learning Applications, Literature Review"
+);
+
 projects.push(p1);
 projects.push(p2);
 projects.push(p3);
 projects.push(p4);
 projects.push(p5);
 projects.push(p6);
+projects.push(p8);
+projects.push(p7);
 
 for (var i = 0; i < projects.length; i++) {
   console.log(projects[i]);
