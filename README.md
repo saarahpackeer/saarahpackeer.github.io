@@ -1,30 +1,93 @@
-# hello-express
+# Saarah Packeer — Portfolio
 
-A server that serves a webpage, its resources, and some data
+Built with **Vue 3 + TypeScript + Vite + Tailwind CSS**.
 
+## Project structure
 
-## Your Project
+```
+src/
+├── data/
+│   ├── profile.ts     ← your name, bio, links, interests, photo filenames
+│   ├── projects.ts    ← featured projects + uni projects
+│   └── skills.ts      ← skill groups (Frontend / Backend / Tools)
+├── types/
+│   └── index.ts       ← TypeScript interfaces
+├── components/
+│   ├── HeroSection.vue
+│   ├── AboutSection.vue
+│   ├── SkillsSection.vue
+│   └── ProjectCard.vue
+├── views/
+│   ├── HomeView.vue       → saarahpackeer.github.io/#/
+│   └── ProjectsView.vue   → saarahpackeer.github.io/#/projects
+├── router/index.ts
+├── App.vue
+├── main.ts
+└── style.css
 
-On the front-end,
+public/
+└── photos/            ← put your images here
+    ├── photo1.jpg
+    ├── photo2.jpg
+    ├── photo3.jpg
+    └── photo4.jpg
+```
 
-- Edit `views/index.html` to change the content of the webpage
-- `public/client.js` is the javacript that runs when you load the webpage
-- `public/style.css` is the styles for `views/index.html`
-- Drag in `assets`, like images or music, to add them to your project
+## Updating your content
 
-On the back-end,
+**All content lives in `src/data/` — you never need to touch a component.**
 
-- your app starts at `server.js`
-- add frameworks and packages in `package.json`
-- safely store app secrets in `.env` (nobody can see this but you and people you invite)
+| What you want to change | File to edit |
+|---|---|
+| Name, bio, email, resume link, socials | `src/data/profile.ts` |
+| Interests + photo filenames | `src/data/profile.ts` |
+| Skills list | `src/data/skills.ts` |
+| Add/edit a project | `src/data/projects.ts` |
 
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy.
+### Adding photos
 
+1. Drop your images into `public/photos/`
+2. Make sure the filenames match what's listed in `profile.ts` under `photos: [...]`
+3. That's it — the About grid picks them up automatically.
 
-## Made by [Glitch](https://glitch.com/)
+### Adding a project
 
-**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
+Open `src/data/projects.ts` and add an entry to the array:
 
-Find out more [about Glitch](https://glitch.com/about).
+```ts
+{
+  title: 'My Project',
+  description: 'What it does in one sentence.',
+  emoji: '🚀',
+  tags: ['Vue', 'TypeScript'],
+  tagVariants: ['primary', 'secondary'],
+  liveUrl: 'https://myproject.com',   // omit if not deployed
+  repoUrl: 'https://github.com/...',  // omit if private
+  featured: true,   // true = shows on home page; false = uni projects page only
+}
+```
 
-( ᵔ ᴥ ᵔ )
+## Local development
+
+```bash
+npm install
+npm run dev
+```
+
+Then open http://localhost:5173
+
+## Deployment
+
+Deployment is fully automatic via GitHub Actions.
+
+**One-time setup (do this once):**
+
+1. Push this code to your `main` branch
+2. In your GitHub repo → **Settings → Pages**
+3. Set **Source** to **GitHub Actions**
+4. Save
+
+After that, every `git push` to `main` triggers a build and deploy. Your site will
+be live at **https://saarahpackeer.github.io** within about 60 seconds.
+
+You can also trigger a manual deploy from the **Actions** tab → **Deploy to GitHub Pages** → **Run workflow**.
