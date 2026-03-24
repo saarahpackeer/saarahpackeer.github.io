@@ -36,5 +36,5 @@ export const profile: Profile = {
   ],
 
   // ── Photos ────────────────────────────────────────────────────────
-  photos: ['4.jpeg', '14.jpg', '8.jpg', '11.jpeg'],
+  photos: ['4.jpeg', '14.JPG', '8.JPG', '11.jpeg'],
 }
