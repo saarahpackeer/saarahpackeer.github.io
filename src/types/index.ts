@@ -18,8 +18,6 @@ export interface Profile {
   heroBio: string
   aboutBio: string
   ctaLabel: string
-  ctaEmail: string
-  resumeUrl: string
   status: string
   interests: Interest[]
   socials: SocialLink[]
@@ -36,7 +34,7 @@ export interface Project {
   description: string
   emoji: string
   tags: string[]
-  tagVariants?: Array<'primary' | 'secondary' | 'accent'>
+  tagVariants?: Array<'primary' | 'secondary' | 'accent' | 'neutral'>
   liveUrl?: string
   repoUrl?: string
   imgSrc?: string
